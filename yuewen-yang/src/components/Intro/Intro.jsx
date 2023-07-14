@@ -51,6 +51,11 @@ function Intro(props) {
                 </a>
             </div>
             <div className="links">
+                <a href="https://yuewen.space/" target="_blank">
+                    space
+                </a>
+            </div>
+            <div className="links">
                 <a href="https://www.instagram.com/yuewenyyy/" target="_blank">
                     {/* <img src={insLogo} className="logo" alt="Instagram logo" /> */}
                     instagram
