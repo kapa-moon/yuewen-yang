@@ -1,10 +1,138 @@
+
+@media (max-width: 600px) {
+
+    .intro {
+    
+        margin: 13%;
+        padding-top: 10%;
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: smaller;
+        position: relative;
+        text-align: left;
+    
+    }
+    
+    .links{
+        padding: 3px;
+    }
+    .descript{
+        padding: 0px;
+        line-height: 1em;
+        font-weight: light;
+        font-size: small;
+        /* display: inline-block; */
+    }
+    
+    
+    .nyu{
+        padding-left: 5px;
+        color: black;
+    }
+    .nyu:hover{
+        color: rgb(87,6,140);
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: rgb(87,6,140);
+    }
+    
+    .cornell{
+        padding: 0px 5px 0px 5px;
+        color: black;
+    }
+    .cornell:hover{
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: rgb(179,27,27);
+        
+    }
+    .leading {
+        font-size: medium;
+        font-weight: bold;
+        line-height: 2em;
+    }
+    ::selection {
+        background-color: rgb(254, 101, 203);
+        color: white;
+    }
+    a {
+        color: rgb(103, 79, 98);
+        text-decoration: none;
+        font-weight: light;
+        font-size: small;
+    }
+    a:hover {
+        color: rgb(254, 101, 203);
+        text-decoration: none;
+        font-weight: light;
+        font-size: small;
+    }
+    a::after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: rgb(255, 116, 225);
+        transition: width .3s;
+    }
+    
+    .p {
+        font-size: small;
+        font-weight: 500;
+        line-height: 1.5em;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: black;
+        font-family: 'Mukta', sans-serif;
+    }
+    .hl{
+        color: rgb(255, 116, 225);
+        font-weight: bold;
+    }
+    .break{
+        margin: 50px;
+        padding: 0;
+        
+    }
+    .keyword{
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 5px;
+        margin-right: 10px;
+        border-radius: 3px;
+        background-color: rgb(255, 116, 225);
+        color: white;
+        font-weight: bold;
+        font-size: small;
+        width: fit-content;
+    }
+    ul#keywords li{
+        margin-bottom: 10px;
+    }
+    ul#keywords{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo {
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 25px;
+        height: 25px;
+    }
+    }
+@media (min-width: 600px) {
+
 .intro {
 
-    margin: 100px;
-    padding: 3em;
+    margin: 10%;
+    /* padding: 2em; */
     color: black;
     font-family: 'Lato', sans-serif;
-    font-size: larger;
+    font-size: 1em;
     position: relative;
     text-align: left;
 
@@ -94,24 +222,26 @@ a::after{
     
 }
 .keyword{
-    /* text-decoration: underline; */
-    /* text-decoration-color: rgb(255, 116, 225); */
     padding-left: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-right: 5px;
     margin-right: 10px;
-    border-radius: 4px;
+    border-radius: 3px;
     background-color: rgb(255, 116, 225);
-    /* color: rgb(95, 44, 44); */
     color: white;
     font-weight: bold;
     font-size: small;
+    width: fit-content;
 }
-.keywords{
+ul#keywords li{
+    padding: 10;
+    margin: 1;
+    display: inline;
+}
+ul#keywords{
     padding: 0;
     margin: 0;
-    display: inline-block;
 }
 
 
@@ -120,4 +250,5 @@ a::after{
     padding-right: 4px;
     width: 25px;
     height: 25px;
+}
 }

@@ -9,7 +9,6 @@ function Intro(props) {
         <div className="intro">
             <p className="leading">Hi 👋   I'm Yuewen.</p>
             <p className="descript">&#128205; New York City</p>
-            {/* <p className="descript">&#x1F392;  NYU</p> */}
             <div className="descript">&#x1F392; prev. 
             <a href="https://math.nyu.edu/dynamic/undergrad/ba-cas/majors-minors/major-minor-requirements/#mathcsmajor" target="_blank" className="nyu">Math & CS 23' @ NYU Courant</a>
             </div>
@@ -22,18 +21,15 @@ function Intro(props) {
                 <strong className="hl"> +</strong> and more...
             </p>
             <p className="descript">&#x1F4D6; I'm interested in imagineering human-centered workplace for the future.</p>
-            <ul className="keywords">
-                <l className="keyword">cscw
-                </l>
-                <l className="keyword">behavioral health
-                </l>
-                <l className="keyword">human-ai collaboration
-                </l>
-                <l className="keyword">mixed reality
-                </l>
-                
-                {/* <div className="keyword">human-ai collaboration
-                </div> */}
+            <ul id="keywords">
+                <li className="keyword">cscw
+                </li>
+                <li className="keyword">behavioral health
+                </li>
+                <li className="keyword">human-ai collaboration
+                </li>
+                <li className="keyword">mixed reality
+                </li>
             </ul>
 
             <div className="break"></div>
